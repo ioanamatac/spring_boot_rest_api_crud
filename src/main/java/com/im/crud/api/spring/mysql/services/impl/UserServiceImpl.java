@@ -40,7 +40,7 @@ public class UserServiceImpl implements UserService {
 		try {
 			userRepository.deleteById(userId);
 
-		} catch (Exception e) {
+		} catch (RuntimeException e) {
 			throw new RuntimeException(e.getMessage());
 		}
 	}
