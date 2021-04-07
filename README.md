@@ -78,25 +78,25 @@ La méthode principale délègue à la classe SpringApplication de Spring Boot e
 
 # Testing with Postman
 
->Creer un utilisateur dans la base de données (exemple):
+## Creer un utilisateur dans la base de données (exemple):
 ![Image text](src/main/resources/images/2021-04-07_1029_addUser.png)
 
->Table User MySQL(tous les utilisateurs):
+## Table User MySQL(tous les utilisateurs):
 ![Image text](src/main/resources/images/2021-04-07_1036_User_Table.png)
 
->Chercher l'utilisateur avec l'id n°7: 
+## Chercher l'utilisateur avec l'id n°7: 
 ![Image text](src/main/resources/images/2021-04-07_1033_getUserById.png)
 
->Mettre à jour l'utilisateur avec l'id n°7:
+## Mettre à jour l'utilisateur avec l'id n°7:
 ![Image text](src/main/resources/images/2021-04-07_1036_updateUser.png)
 
->Supprimer l'utilisateur avec l'id n°9:
+## Supprimer l'utilisateur avec l'id n°9:
 ![Image text](src/main/resources/images/2021-04-07_1039_deleteUser.png)
 
->Table User MySQL après update & delete:
+## Table User MySQL après update & delete:
 ![Image text](src/main/resources/images/2021-04-07_1138_Table_User.png)
 
->Affichage des utilisateurs localhost:8080/user/all:
+## Affichage des utilisateurs localhost:8080/user/all:
 ![Image text](src/main/resources/images/2021-04-07_1042_allUsers.png)
 
   
@@ -114,5 +114,5 @@ HTTP Method   | URI          | Description
 
 
 
-Enjoy !:)
+**Enjoy !:)
 Ioana
